@@ -1,0 +1,49 @@
+body {
+    background-color: #FFF7E9;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #1746A2;
+    padding: 1% 5%;
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #fff;
+}
+
+#title {
+    padding: 10% 15% 3%;
+}
+
+h1 {
+    color: #1746A2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    font-weight: 600;
+}
+
+.iphone-img {
+    width: 100%;
+    position: relative;
+    bottom: 3rem;
+}
+
+.col1 {
+    padding-bottom: 20%;
+}
+
+#features {
+    background-color: #1746A2;
+    color: #fff;
+}
