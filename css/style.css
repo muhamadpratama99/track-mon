@@ -1,32 +1,38 @@
 body {
-    background-color: #FFF7E9;
-    margin-top: 50px;
     font-family: 'Montserrat', sans-serif;
+    padding-top: 0%;
 }
 
 .navbar {
-    background-color: #1746A2;
+    background-color: #eaeaea;
     padding: 1% 5%;
 }
 
 .navbar-brand {
     font-weight: 700;
+    color: #56026d;
 }
 
 .nav-link {
     font-weight: 600;
-    color: #fff;
+    color: #56026d;
 }
 
 #title {
-    padding: 10% 15% 3%;
+    background-color: #eaeaea;
+    padding: 10% 15% 3% 15%;
 }
 
 h1 {
-    color: #1746A2;
+    color: #56026d;
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    padding-bottom: 2rem;
+    padding-bottom: 5%;
+}
+
+.title-content-p {
+    color: #56026d;
+    padding-bottom: 5%;
 }
 
 .btn {
@@ -34,9 +40,10 @@ h1 {
 }
 
 .iphone-img {
-    width: 100%;
+    width: 90%;
     position: relative;
-    bottom: 3rem;
+    bottom: 6rem;
+    padding-left: 15%;
 }
 
 .col1 {
@@ -44,6 +51,55 @@ h1 {
 }
 
 #features {
-    background-color: #1746A2;
+    background-color: #56026d;
+    color: #ffffff;
+    padding: 5% 20%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.feature-icon {
+    padding: 15%;
+    color: #fff;
+    cursor:pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.feature-icon:hover {
+    color: #ff7acc;
+}
+
+/* Tertimonials Section */
+
+.testimony-header {
+    font-weight: 800;
+    padding-bottom: 3%;
+}
+
+.carousel-item {
+    background-color: #fff;
+    color: #56026d;
+    text-align: center;
+    padding: 25% 25% 5% 25%;
+}
+
+.col-sp {
+    padding: 10%;
+}
+
+.img-sponsor {
+    width: 100%;
+}
+
+#pricing {
+    background-color: #56026d;
     color: #fff;
 }

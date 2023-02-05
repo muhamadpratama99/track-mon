@@ -35,7 +35,7 @@
 
         <!-- Navigation Bar -->
 
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="">Trackmon</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -84,9 +84,9 @@
             <div class="row">
                 <div class="col-lg-6 col1">
                     <h1>Track where your money goes!<br>Don't Waste It!</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sit possimus nisi? Quaerat reiciendis asperiores aspernatur consequuntur voluptatem accusantium corporis?</p>
-                    <button type="button" class="btn btn-primary"><i class="fa-brands fa-apple"></i>Download</button>
-                    <button type="button" class="btn btn-outline-primary"><i class="fa-brands fa-google-play"></i>Download now!</button>
+                    <p class="title-content-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sit possimus nisi? Quaerat reiciendis asperiores aspernatur consequuntur voluptatem accusantium corporis?</p>
+                    <button type="button" class="btn btn-dark"><i class="fa-brands fa-apple"></i>Download</button>
+                    <button type="button" class="btn btn-outline-dark"><i class="fa-brands fa-google-play"></i>Download</button>
                 </div>
                 <div class="col-lg-6 col2">
                     <img class="iphone-img" src="img/iphone.png" alt="iphone">
@@ -99,48 +99,72 @@
         <!-- Features -->
 
         <section id="features">
-            <div>
-                <div>
-                    <h2>Fitur 1</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis minima fugiat corporis nisi. Inventore?</p>
+            <div class="row">
+                <div class="feature-box col-lg-4">
+                    <h2 class="feature-header"><i class="fa-solid fa-sack-dollar fa-3x feature-icon"></i>Fitur 1</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div>
-                    <h2>Fitur 2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis minima fugiat corporis nisi. Inventore?</p>
+                <div class="feature-box col-lg-4">
+                    <h2 class="feature-header"><i class="fa-solid fa-calendar-days fa-3x feature-icon"></i>Fitur 2</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
-                <div>
-                    <h2>Fitur 3</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis minima fugiat corporis nisi. Inventore?</p>
+                <div class="feature-box col-lg-4">
+                    <h2 class="feature-header"><i class="fa-solid fa-face-laugh-wink fa-3x feature-icon"></i>Fitur 3</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
         </section>
         
 
 
-        <!-- Testimonies -->
+        <!-- Testimonials -->
 
-        <section>
-            <div>
-                <div>
-                    <h2>Orang 1</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis minima fugiat corporis nisi. Inventore?</p>
+        <section id="testimonials">
+            <div id="carouselExample" class="carousel slide carousel-dark" data-bs-ride="carousel" data-interval="1000">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <h2 class="testimony-header">Orang ke-1</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, deserunt. Cum minima repudiandae quae! Praesentium, quidem. A architecto nesciunt deserunt.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <h2 class="testimony-header">Orang ke-2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, deserunt. Cum minima repudiandae quae! Praesentium, quidem. A architecto nesciunt deserunt.</p>
+                  </div>
+                  <div class="carousel-item">
+                    <h2 class="testimony-header">Orang ke-3</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, deserunt. Cum minima repudiandae quae! Praesentium, quidem. A architecto nesciunt deserunt.</p>
+                  </div>
                 </div>
-                <div>
-                    <h2>Orang 2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis minima fugiat corporis nisi. Inventore?</p>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="row col-sp">
+                <div class="col-lg-3">
+                    <img class="img-sponsor" src="img/hostinger.png" alt="">
                 </div>
-                <div>
-                    <h2>Orang 3</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi reiciendis minima fugiat corporis nisi. Inventore?</p>
+                <div class="col-lg-3">
+                    <img class="img-sponsor" src="img/github.png" alt="">
                 </div>
-            </div>
+                <div class="col-lg-3">
+                    <img class="img-sponsor" src="img/nhos.png" alt="">
+                </div>
+                <div class="col-lg-3">
+                    <img class="img-sponsor" src="img/toped.png" alt="">
+                </div>
+              </div>
         </section>
         
 
 
         <!-- Pricing -->
 
-        <section>
+        <section id="pricing">
             <div>
                 <div>
                     <h2>Card 1</h2>
