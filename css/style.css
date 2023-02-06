@@ -153,3 +153,30 @@ h1 {
 .btn-price {
     padding: 5% 15%;
 }
+
+#footer {
+    background-color: #56026d;
+    color: #fff;
+    padding: 3% 10%;
+    text-align: center;
+  
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.flink {
+    color: #eaeaea;
+    text-decoration: none;
+    font-weight: 800;
+    cursor:pointer;
+    transition: all 0.4s ease 0s;
+}
+
+.flink:hover {
+    color: #ff7acc;
+}
