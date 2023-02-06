@@ -28,6 +28,12 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
     padding-bottom: 5%;
+    cursor:pointer;
+    transition: all 0.4s ease 0s;
+}
+
+h1:hover {
+    color: #f32ba7;
 }
 
 .title-content-p {
@@ -84,11 +90,19 @@ h1 {
     padding-bottom: 3%;
 }
 
+.client-img {
+    border-radius: 100%;
+    padding: 5%;
+    width: 50%;
+    margin-bottom: 5%;
+    border: 1rem dotted #56026d
+}
+
 .carousel-item {
     background-color: #fff;
     color: #56026d;
     text-align: center;
-    padding: 25% 25% 5% 25%;
+    padding: 10% 25% 10% 25%;
 }
 
 .col-sp {
@@ -96,6 +110,10 @@ h1 {
 }
 
 .img-sponsor {
+    width: 100%;
+}
+
+.sponsor {
     width: 100%;
 }
 
