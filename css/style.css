@@ -52,7 +52,7 @@ h1 {
 
 #features {
     background-color: #56026d;
-    color: #ffffff;
+    color: #eaeaea;
     padding: 5% 20%;
 }
 
@@ -102,4 +102,54 @@ h1 {
 #pricing {
     background-color: #56026d;
     color: #fff;
+    padding: 8% 10%;
+}
+
+.plan-col {
+    padding: 0 0 3% 0;
+}
+
+.plan-title {
+    font-weight: 200;
+    font-size: 2.5rem;
+}
+
+.card {
+    width: 20rem;
+    text-align: center;
+    color: #444;
+    cursor:pointer;
+    transition: all 0.4s ease 0s;
+    margin-right: 50px;
+}
+
+.card-header {
+    padding: 5% 15%;
+    text-align: center;
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card-price {
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+
+.card-ul {
+    list-style: none;
+    padding: 10%;
+}
+
+.card-body {
+    padding: 10% 10%;
+}
+
+.btn-price {
+    padding: 5% 15%;
 }
